@@ -28,7 +28,8 @@ for i in range(N):
 				#현재 위치에서의 자식 노드 파악.
 				#자식 노드의 기준.
 				#1. 현재 맵 위치 상에서 맨하탄 거리로 1만 차이날 것.
-				#2. 이미 다른 노드의 자식 노드로서 Queue에 들어가지 않았을 것. (dpMaps로 확인)
+				#2. 값이 1일 것.
+				#3. 이미 다른 노드의 자식 노드로서 Queue에 들어가지 않았을 것. (dpMaps로 확인)
 				childNode = [(n+1, m), (n, m+1), (n-1, m), (n, m-1)]
 				childNode = [ cn for cn in childNode if max(cn) < N and min(cn) >= 0 and maps[cn[0]][cn[1]] == 1 and dpMaps[cn[0]][cn[1]] is False]
 
