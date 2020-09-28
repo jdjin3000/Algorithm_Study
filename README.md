@@ -8,7 +8,7 @@
 
 ## Author
 
-👤 **정 동 진 **
+👤 **정동진**
 
 * Website: https://jdjin3000.tistory.com/
 * Github: [@jdjin30000](https://github.com/jdjin30000)
